@@ -1,0 +1,25 @@
+{
+  "name": "fuctbase64",
+  "version": "1.0.0",
+  "description": "Converting File Upload To Base64",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirbootoo/fuctBase64.git"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "upload",
+    "base64"
+  ],
+  "author": "Dayo Ajisebutu.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirbootoo/fuctBase64/issues"
+  },
+  "homepage": "https://github.com/sirbootoo/fuctBase64#readme"
+}
