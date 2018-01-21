@@ -75,3 +75,20 @@ let fileResult = fileUpload(fileInput, true);
 console.log(fileResult);
 
 ```
+
+#### Multiple File Upload
+
+```html
+    <input id="the-file" name="file" type="file" multiple>
+```
+
+```js
+let fileUpload = require('fuctbase64');
+
+var fileInput = document.getElementById('the-file');
+
+let fileResult = fileUpload(fileInput, true);
+
+console.log(fileResult);
+
+```
