@@ -5,7 +5,8 @@ module.exports = function(event){
       reader.readAsDataURL(file);
       reader.onload = () => {
         let base64 = reader.result.split(',')[1];
-        return base64;
+        file.base64 = base64;
+        return file;
       };
     }
 }
