@@ -54,6 +54,7 @@ export class FileUploadToBase64Component {
 
 
 ```
+Check out the [Plunkr](https://plnkr.co/edit/PiAFMiiveFch4tee6CbL?p=preview)
 
 ### In Vanilla Javascript
 
@@ -69,7 +70,7 @@ let fileUpload = require('fuctbase64');
 
 var fileInput = document.getElementById('the-file');
 
-let fileResult = fileUpload(fileInput);
+let fileResult = fileUpload(fileInput, true);
 
 console.log(fileResult);
 
