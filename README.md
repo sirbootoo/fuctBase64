@@ -50,8 +50,10 @@ export class FileUploadToBase64Component {
   }
 
   onFileChange(event){
-      let result = fileUpload(event);
-      this.fileResult = result;
+      let result = fileUpload(event).then(result => {
+        this.fileResult = result;
+      });
+      
   }
 }
 
@@ -73,7 +75,7 @@ let fileUpload = require('fuctbase64');
 
 var fileInput = document.getElementById('the-file');
 
-let fileResult = fileUpload(fileInput, true);
+let fileResult = await fileUpload(fileInput, true);
 
 console.log(fileResult);
 
