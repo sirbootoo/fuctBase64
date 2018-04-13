@@ -84,4 +84,4 @@ fileInput.addEventListener('change', function(en){
 
 Would really love contributions on this projects. You can visit the github repo and fork the project and modify.
 
-Thanks.
+Thanks. 
