@@ -1,7 +1,7 @@
-module.exports = function (event, vanilla = false) {
+module.exports = function (event) {
   return new Promise((resolve, reject) => {
     let reader = new FileReader();
-    let files = (vanilla === false) ? event.target.files : event.files;
+    let files = event.target.files;
     let len = files.length;
     if (len > 1) {
       reject(new DOMException("Only one file can be uploaded at a time"));
