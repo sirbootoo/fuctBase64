@@ -74,10 +74,9 @@ Check out the [Plunkr](https://plnkr.co/edit/PiAFMiiveFch4tee6CbL?p=preview)
 let fileUpload = require('fuctbase64');
 
 var fileInput = document.getElementById('the-file');
-fileInput.addEventListener('change', function(en){
-  fileUpload(en,true).then(pay => {
-    console.log(pay);
-  })
-})
+
+let fileResult = await fileUpload(fileInput, true);
+
+console.log(fileResult);
 
 ```
