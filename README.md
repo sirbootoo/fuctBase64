@@ -80,3 +80,8 @@ let fileResult = await fileUpload(fileInput, true);
 console.log(fileResult);
 
 ```
+
+
+## Open Issues / Contributions
+
+You can open issues for things which you thing I did wrong. Or better you can contribute to this project. We will happy to have your contributions. ### Thank you
