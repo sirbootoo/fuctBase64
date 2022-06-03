@@ -1,6 +1,8 @@
 # fuctBase64
 Converting File Uploads To Base64
 
+[![Rate this package](https://badges.openbase.com/js/rating/fuctbase64.svg?token=X4KjCr6gNPfoE2rnwVyfYHe+eZ6voQzL71IGx1uXkfM=)](https://openbase.com/js/fuctbase64?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge)
+
 # Using the library.
 
 ## Installation
