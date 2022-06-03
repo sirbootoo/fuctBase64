@@ -81,6 +81,9 @@ console.log(fileResult);
 ```
 
 
+Enjoying fuctbase64? Please rate it on Openbase: https://openbase.com/js/fuctbase64#rate
+
+
 ## Open Issues / Contributions
 
 You can open issues for things which you thing I did wrong. Or better you can contribute to this project. We will happy to have your contributions. Thank you
